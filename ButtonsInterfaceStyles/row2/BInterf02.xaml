@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="FocusVisual">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+    <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+    <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+    <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+    <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+    <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+    <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+    <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+    <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+    <Style x:Key="ButtonStyle2" TargetType="{x:Type Button}">
+        <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+        <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Rectangle Height="59" Width="185" Stroke="#FF011231" RadiusX="2" RadiusY="2" Fill="#FF393D87"/>
+                        <Rectangle Height="53" Stroke="#FF140034" Width="170" RadiusX="2" RadiusY="2" Fill="#FF7A7884"/>
+                        <Path x:Name="path156_Copy" Fill="#FFF3E389" Canvas.Left="-489.301" Canvas.Top="-62.369" Stretch="Fill" Stroke="Black" Margin="65,15,65,15">
+                            <Path.Data>
+                                <PathGeometry Figures="M0 0 C38.61 0 77.22 0 117 0 C117 8.58 117 17.16 117 26 C114.69 28.31 112.38 30.62 110 33 C107.76483436 35.64440437 105.76106971 38.43206588 103.75 41.25 C103.19135254 42.03157471 102.63270508 42.81314941 102.05712891 43.6184082 C74.12020779 83.35223913 60.55964397 127.94480635 57 176 C46.11 176 35.22 176 24 176 C24 166.730885 24.19107466 158.64953131 25.75 149.6875 C26.02287842 148.06702759 26.02287842 148.06702759 26.30126953 146.41381836 C33.55420202 104.36370629 51.32609239 67.54347066 76 33 C50.92 32.67 25.84 32.34 0 32 C0 21.44 0 10.88 0 0 Z " FillRule="NonZero"/>
+                            </Path.Data>
+                        </Path>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsDefaulted" Value="true"/>
+                        <Trigger Property="IsMouseOver" Value="true"/>
+                        <Trigger Property="IsPressed" Value="true"/>
+                        <Trigger Property="IsEnabled" Value="false"/>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="FocusVisual">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+    <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+    <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+    <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+    <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+    <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+    <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+    <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+    <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+    <Style x:Key="ButtonStyle3" TargetType="{x:Type Button}">
+        <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+        <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Rectangle Height="59" Width="185" Stroke="#FF011231" RadiusX="2" RadiusY="2" Fill="#FF393D87"/>
+                        <Rectangle Height="53" Stroke="#FF140034" Width="170" RadiusX="2" RadiusY="2" Fill="#FF7A7884"/>
+                        <Path x:Name="path96_Copy" Stretch="Fill" Stroke="Black"  Canvas.Left="-839.417" Fill="#FFF3E389"  Margin="47,-6,47,-6" Width="70" Height="32">
+                            <Path.Data>
+                                <PathGeometry Figures="M72.963998,54.5 C71.683419,56.521973 70.404023,58.544777 69.125733,60.568359 67.447861,63.224728 65.769326,65.88063 64.090218,68.536133 63.149178,70.024078 62.20815,71.512039 61.267125,73 55.178288,82.632965 49.069936,92.245102 42.801499,101.75 42.295159,102.5077 41.803708,103.2431 41.312257,103.97852 40.854646,104.67113 40.410497,105.34338 39.966344,106.01563 38.050851,108.87934 37.223218,111.05469 35.914002,114.5 48.834,114.5 61.374001,114.5 73.914002,114.5 73.914002,94.099998 73.914002,74.300003 73.914002,54.5 73.591004,54.5 73.277497,54.5 72.963998,54.5 z M77.510445,0.5 C87.078492,0.5 96.646531,0.5 106.50451,0.5 106.50451,37.790001 106.50451,75.080002 106.50451,113.5 113.76302,113.5 121.02153,113.5 128.5,113.5 128.5,123.40001 128.5,133.3 128.5,143.5 121.24149,143.5 113.98298,143.5 106.50451,143.5 106.50451,155.38 106.50451,167.26001 106.50451,179.5 95.616738,179.5 84.728967,179.5 73.511269,179.5 73.511269,167.62001 73.511269,155.74001 73.511269,143.5 49.426202,143.5 25.341134,143.5 0.5262143,143.5 0.52621537,109.24677 0.50000077,126.85147 0.5,117.40274 z"/>
+                            </Path.Data>
+                        </Path>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsDefaulted" Value="true"/>
+                        <Trigger Property="IsMouseOver" Value="true"/>
+                        <Trigger Property="IsPressed" Value="true"/>
+                        <Trigger Property="IsEnabled" Value="false"/>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>

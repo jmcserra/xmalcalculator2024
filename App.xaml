@@ -1,0 +1,42 @@
+﻿<Application x:Class="BlendInterfaces1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:BlendInterfaces1"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/CalcButtonsInterface.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row1/BInterf01.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row1/BInterf001.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row1/BInterf0001.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row1/BInterf00001.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row1/BInterf000001.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row2/BInterf02.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row2/BInterf002.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row2/BInterf0002.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row2/BInterf00002.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row2/BInterf000002.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row3/BInterf03.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row3/BInterf003.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row3/BInterf0003.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row3/BInterf00003.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row3/BInterf000003.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row4/BInterf04.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row4/BInterf004.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row4/BInterf0004.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row4/BInterf00004.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row4/BInterf000004.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row5/BInterf05.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row5/BInterf005.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row5/BInterf0005.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row5/BInterf00005.xaml"/>
+                <ResourceDictionary Source="/ButtonsInterfaceStyles/row5/BInterf000005.xaml"/>
+                <ResourceDictionary Source="/CustomComboBoxStyle.xaml"/>
+                <ResourceDictionary Source="/BInterfGenerate.xaml"/>
+                <ResourceDictionary Source="/CustomButtonStyleResult.xaml"/>
+                <ResourceDictionary Source="/ComboBoxStyle1.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

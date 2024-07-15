@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="BInterfGenerate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row5\BInterf000005.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row5\BInterf00005.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row5\BInterf0005.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row5\BInterf005.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row4\BInterf000004.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row5\BInterf05.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row4\BInterf00004.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row4\BInterf0004.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row4\BInterf004.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row4\BInterf04.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row3\BInterf000003.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row3\BInterf00003.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row3\BInterf0003.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row3\BInterf003.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row3\BInterf03.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row2\BInterf000002.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row2\BInterf00002.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row2\BInterf0002.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row2\BInterf002.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row1\BInterf00001.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row2\BInterf02.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row1\BInterf000001.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row1\BInterf0001.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row1\BInterf001.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\row1\BInterf01.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ButtonsInterfaceStyles\CalcButtonsInterface.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ComboBoxStyle1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomButtonStyleResult.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="CustomComboBoxStyle.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PlayButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

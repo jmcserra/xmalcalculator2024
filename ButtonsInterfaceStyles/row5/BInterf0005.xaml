@@ -1,0 +1,53 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style x:Key="FocusVisual">
+        <Setter Property="Control.Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+    <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+    <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+    <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+    <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+    <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+    <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+    <SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+    <SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+    <Style x:Key="ButtonStyle005" TargetType="{x:Type Button}">
+        <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+        <Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+        <Setter Property="BorderThickness" Value="1"/>
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+        <Setter Property="Padding" Value="1"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid Width="200" Height="62">
+                        <Rectangle Height="59" Width="185" Stroke="#FF011231" RadiusX="2" RadiusY="2" Fill="#FF393D87"/>
+                        <Rectangle Height="53" Stroke="#FF140034" Width="170" RadiusX="2" RadiusY="2" Fill="#FF7A7884"/>
+                        <Path x:Name="path370_Copy" Fill="#FFEFE088" Height="32" Canvas.Left="1582.189" RenderTransformOrigin="0.165217391304348,6.69031722594677E-09" Stretch="Fill" Width="70" Canvas.Top="20.5" Stroke="Black">
+                            <Path.Data>
+                                <PathGeometry Figures="M132,148 C164.34,148 196.67999,148 230,148 230,154.60001 230,161.2 230,168 197.66,168 165.32,168 132,168 132,161.4 132,154.8 132,148 z M140,32.000001 C147.59,32.000001 155.18,32.000001 163,32.000001 158.29341,42.096387 153.5111,52.089166 148.27783,61.921144 144.11681,69.745752 140.05346,77.619363 136,85.500001 135.63897,86.201616 135.27795,86.90323 134.90598,87.6261 132.64893,92.01246 130.39317,96.399484 128.13788,100.78674 126.27095,104.41806 124.40301,108.04885 122.53516,111.67969 116.84322,122.74486 111.15144,133.81011 105.46675,144.87901 96.699917,161.94885 87.899868,178.99898 79,196 71.41,196 63.82,196 55.999998,196 57.280745,192.15776 58.279421,189.1978 60.117188,185.75391 60.549185,184.93633 60.981182,184.11873 61.42627,183.27637 62.143391,181.933 62.143391,181.933 62.875,180.5625 69.144085,168.68944 75.272793,156.74732 81.381287,144.79105 86.334183,135.09802 91.332672,125.432 96.413971,115.8056 100.15077,108.72482 103.83202,101.61667 107.5,94.500001 112.00668,85.767724 116.53727,77.049272 121.13037,68.362062 127.50345,56.28502 133.73666,44.134183 140,32.000001 z M38.000002,0 C43.61,1.3113022E-06 49.22,1.3113022E-06 55,0 55,12.540001 55,25.080001 55,38.000001 67.540001,38.000001 80.080002,38.000001 93,38.000001 93,43.610002 93,49.220003 93,55.000001 80.459999,55.000001 67.92,55.000001 55,55.000001 55,67.540002 55,80.080003 55,93.000001 49.39,93.000001 43.78,93.000001 38.000002,93.000001 38,80.46 38,67.919999 38.000002,55.000001 25.46,55.000001 12.92,55.000001 0,55.000001 0,49.390001 0,43.78 0,38.000001 12.540001,38.000001 25.08,38.000001 38.000002,38.000001 38,25.46 38,12.920001 38.000002,0 z"/>
+                            </Path.Data>
+                        </Path>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsDefaulted" Value="true"/>
+                        <Trigger Property="IsMouseOver" Value="true"/>
+                        <Trigger Property="IsPressed" Value="true"/>
+                        <Trigger Property="IsEnabled" Value="false"/>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+</ResourceDictionary>
