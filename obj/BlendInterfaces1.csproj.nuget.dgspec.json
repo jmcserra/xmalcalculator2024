@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\BlendInterfaces1\\BlendInterfaces1.csproj": {}
+    "Q:\\GitHub\\Calculator2024_XMAL\\BlendInterfaces1.csproj": {}
   },
   "projects": {
-    "F:\\BlendInterfaces1\\BlendInterfaces1.csproj": {
+    "Q:\\GitHub\\Calculator2024_XMAL\\BlendInterfaces1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\BlendInterfaces1\\BlendInterfaces1.csproj",
+        "projectUniqueName": "Q:\\GitHub\\Calculator2024_XMAL\\BlendInterfaces1.csproj",
         "projectName": "BlendInterfaces1",
-        "projectPath": "F:\\BlendInterfaces1\\BlendInterfaces1.csproj",
+        "projectPath": "Q:\\GitHub\\Calculator2024_XMAL\\BlendInterfaces1.csproj",
         "packagesPath": "C:\\Users\\josmc\\.nuget\\packages\\",
-        "outputPath": "F:\\BlendInterfaces1\\obj\\",
+        "outputPath": "Q:\\GitHub\\Calculator2024_XMAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

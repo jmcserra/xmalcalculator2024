@@ -40,7 +40,7 @@
             </Grid>
         </Viewbox>
         <TextBox Loaded="Viewbox_Loaded" x:Name="InputTextBox" IsReadOnly="False" Focusable="True" Grid.Row="2" IsEnabled="True" Grid.ColumnSpan="2" HorizontalContentAlignment="Right" FontSize="26" IsReadOnlyCaretVisible="False" HorizontalScrollBarVisibility="Disabled" Background="#FF090426" BorderThickness="2,2,2,2" Foreground="#FFF7EF88" SelectionBrush="#FF17671B" CaretBrush="Transparent" TextWrapping="WrapWithOverflow" FontFamily="Standard and Scientific" VerticalContentAlignment="Center" Margin="2,0,2,0" Opacity="0.85" FontWeight="Bold" />
-        <Viewbox Grid.Row="3" Grid.ColumnSpan="2"/>
+        <Viewbox Grid.Row="3"/>
         <Grid Grid.Row="4" Grid.ColumnSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition />
@@ -107,19 +107,19 @@
                 <Button Style="{DynamicResource ButtonStyle001}" Content="Button"  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
             </Viewbox>
             <Viewbox Grid.Column="7" Stretch="Fill">
-                <Button Style="{DynamicResource ButtonStyle00001}"  Content="Button"  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
+                <Button Style="{DynamicResource ButtonStyle00001}"  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
             </Viewbox>
             <Viewbox Grid.Column="3" Stretch="Fill">
-                <Button Content="Button" Style="{DynamicResource ButtonStyle1}"  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
+                <Button Content="" Style="{DynamicResource ButtonStyle1}"  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" Click="Button_Click" />
             </Viewbox>
             <Viewbox Grid.Column="4" Stretch="Fill">
-                <Button Style="{DynamicResource ButtonStyle01}" Content="Button"  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
+                <Button Style="{DynamicResource ButtonStyle01}" Content=""  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
             </Viewbox>
             <Viewbox Grid.Column="5" Stretch="Fill">
-                <Button Style="{DynamicResource ButtonStyle001}" Content="Button"  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
+                <Button Style="{DynamicResource ButtonStyle001}" Content=""  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
             </Viewbox>
             <Viewbox Grid.Column="7" Stretch="Fill" >
-                <Button Style="{DynamicResource ButtonStyle00001}"  Content="Button"  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
+                <Button Style="{DynamicResource ButtonStyle00001}"  Content=""  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62" />
             </Viewbox>
             <Viewbox x:Name="ViewOnOff" Grid.Column="8" Stretch="Fill" Margin="0">
                 <Button x:Name="ButtonOnOff" Style="{DynamicResource ButtonStyle000001}" Click="ButtonOnOff_Click"  FontStretch="Normal" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"  Width="200" Height="62"/>

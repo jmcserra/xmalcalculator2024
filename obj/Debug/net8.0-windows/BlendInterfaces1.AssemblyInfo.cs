@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlendInterfaces1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54ee158598d83350de4b8455c7c746b2370ff2af")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlendInterfaces1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlendInterfaces1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

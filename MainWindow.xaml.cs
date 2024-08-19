@@ -215,5 +215,10 @@ namespace BlendInterfaces1
         {
             MessageBox.Show("Button was pressed!", "Information", MessageBoxButton.OK, MessageBoxImage.Information);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

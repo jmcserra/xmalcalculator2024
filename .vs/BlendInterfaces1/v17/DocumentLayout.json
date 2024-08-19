@@ -1,22 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "F:\\BlendInterfaces1\\",
+  "WorkspaceRootPath": "Q:\\GitHub\\Calculator2024_XMAL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|f:\\blendinterfaces1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|q:\\github\\calculator2024_xmal\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|f:\\blendinterfaces1\\custombuttonstyleresult.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|q:\\github\\calculator2024_xmal\\custombuttonstyleresult.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|solutionrelative:custombuttonstyleresult.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|f:\\blendinterfaces1\\binterfgenerate.xaml||{A4F9FF65-A78C-4650-866D-5069CC4127CF}",
+      "AbsoluteMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|q:\\github\\calculator2024_xmal\\binterfgenerate.xaml||{A4F9FF65-A78C-4650-866D-5069CC4127CF}",
       "RelativeMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|solutionrelative:binterfgenerate.xaml||{A4F9FF65-A78C-4650-866D-5069CC4127CF}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|f:\\blendinterfaces1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|q:\\github\\calculator2024_xmal\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|q:\\github\\calculator2024_xmal\\buttonsinterfacestyles\\row1\\binterf000001.xaml||{A4F9FF65-A78C-4650-866D-5069CC4127CF}",
+      "RelativeMoniker": "D:0:0:{159F31AD-8E2D-4539-A867-8E464DF6B8C8}|BlendInterfaces1.csproj|solutionrelative:buttonsinterfacestyles\\row1\\binterf000001.xaml||{A4F9FF65-A78C-4650-866D-5069CC4127CF}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,16 +57,25 @@
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BInterf000001.xaml",
+              "DocumentMoniker": "Q:\\GitHub\\Calculator2024_XMAL\\ButtonsInterfaceStyles\\row1\\BInterf000001.xaml",
+              "RelativeDocumentMoniker": "ButtonsInterfaceStyles\\row1\\BInterf000001.xaml",
+              "ToolTip": "Q:\\GitHub\\Calculator2024_XMAL\\ButtonsInterfaceStyles\\row1\\BInterf000001.xaml",
+              "RelativeToolTip": "ButtonsInterfaceStyles\\row1\\BInterf000001.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-17T08:30:28.335Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CustomButtonStyleResult.xaml",
-              "DocumentMoniker": "F:\\BlendInterfaces1\\CustomButtonStyleResult.xaml",
+              "DocumentMoniker": "Q:\\GitHub\\Calculator2024_XMAL\\CustomButtonStyleResult.xaml",
               "RelativeDocumentMoniker": "CustomButtonStyleResult.xaml",
-              "ToolTip": "F:\\BlendInterfaces1\\CustomButtonStyleResult.xaml",
+              "ToolTip": "Q:\\GitHub\\Calculator2024_XMAL\\CustomButtonStyleResult.xaml",
               "RelativeToolTip": "CustomButtonStyleResult.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-24T07:50:30.581Z",
@@ -72,9 +85,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "F:\\BlendInterfaces1\\App.xaml",
+              "DocumentMoniker": "Q:\\GitHub\\Calculator2024_XMAL\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "F:\\BlendInterfaces1\\App.xaml",
+              "ToolTip": "Q:\\GitHub\\Calculator2024_XMAL\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-24T07:35:53.401Z",
@@ -84,9 +97,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "BInterfGenerate.xaml",
-              "DocumentMoniker": "F:\\BlendInterfaces1\\BInterfGenerate.xaml",
+              "DocumentMoniker": "Q:\\GitHub\\Calculator2024_XMAL\\BInterfGenerate.xaml",
               "RelativeDocumentMoniker": "BInterfGenerate.xaml",
-              "ToolTip": "F:\\BlendInterfaces1\\BInterfGenerate.xaml",
+              "ToolTip": "Q:\\GitHub\\Calculator2024_XMAL\\BInterfGenerate.xaml",
               "RelativeToolTip": "BInterfGenerate.xaml",
               "ViewState": "AQIAABkAAAAAAAAAAAAAADYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
@@ -97,9 +110,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "F:\\BlendInterfaces1\\MainWindow.xaml",
+              "DocumentMoniker": "Q:\\GitHub\\Calculator2024_XMAL\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "F:\\BlendInterfaces1\\MainWindow.xaml",
+              "ToolTip": "Q:\\GitHub\\Calculator2024_XMAL\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-06-24T06:54:41.019Z",

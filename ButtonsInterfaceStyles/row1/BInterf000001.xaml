@@ -37,7 +37,7 @@
                         </Grid.Effect>
 
                         <Rectangle Stroke="Black" Fill="#FFDD0404" RadiusX="4.973" RadiusY="4.973" StrokeThickness="2"/>
-                        <Rectangle Stroke="#FF787878" Margin="-4,-2,-6,-2" RadiusX="10.111" RadiusY="10.111"/>
+                        <Rectangle Stroke="#FF787878" Margin="-4,-2,-4,-2" RadiusX="10.111" RadiusY="10.111"/>
                         <Path x:Name="path566" Fill="White" Stretch="Fill" RenderTransformOrigin="0.341033428587648,0.0114262525886054" Margin="-3274,-2186,3379,2198">
                             <Path.RenderTransform>
                                 <TranslateTransform X="3324" Y="2192"/>
